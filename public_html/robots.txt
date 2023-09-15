@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /public/*
+Disallow: /
+
+User-agent: Googlebot
+User-agent: Mediapartners-Google
+Disallow: /
+
+# Bloqueo URl dinamica
+Disallow: /*?
+
+# Bloqueo de busquedas
+User-agent: *
+Disallow: /?s=
+Disallow: /search
+
+# Mapa del sitio
+Sitemap: https://mysitioweb.com/sitemap.xml

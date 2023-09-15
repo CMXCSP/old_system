@@ -1,0 +1,37 @@
+/* Indentidad institucional */
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@font-face {
+    font-family: 'Gotham';
+    src: local("Gotham"), 
+        local("Gotham-Medium"), 
+        url(./fonts/Gotham-Medium.ttf), 
+        url(./fonts/Gotham-Bold.ttf);
+    font-weight: Medium;
+}
+:root {
+    /* font-family: Gotham; */ /* utilizada en el logotipo se aplicará a los títulos */
+    font-family: 'Source Sans Pro'; /* regular y semibold; para los textos y la información complementaria */
+    --guinda-claro: #9F2241;
+    --guinda-oscuro: #691C32;
+    --verde-claro:#235B4E;
+    --verde-oscuro:#10312B;
+    --dorado-claro:#DDc9A3;
+    --dorado-oscuro:#BC955C;
+    --gris-claro:#98989A;
+    --gris-oscuro:#6F7271;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}

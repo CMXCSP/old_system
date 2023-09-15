@@ -1,0 +1,14 @@
+{
+    "name": "cmx_csp/sicoinsp",
+    "description": "Control de intervenciones periciales",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Sicoinsp\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1",
+        "phpunit/phpunit": "^9.5"
+    }
+}
