@@ -53,10 +53,17 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
-            'channels' => ['single'],
+            'channels' => ['maria_log','single'],
             'ignore_exceptions' => false,
         ],
 
+        'maria_log' => [
+            'driver' => 'custom',
+            'handler' => App\Logging\MySQLLoggingHandler::class,
+            'via' => App\Logging\MySQLCustomLogger::class,
+            'level' => env('LOG_LEVEL', 'debug'),
+        ],
+        
         'single' => [
             'driver' => 'single',
             'path' => storage_path('logs/laravel.log'),
