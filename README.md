@@ -1,5 +1,7 @@
+Proyecto abandonado
+
 # SiCoInSP-web
-Codigo fuente del SiCoInSP para dejccontrol.net
+Codigo fuente del SiCoInSP para dejccontrol .net
 
 ## SiCoIn-core
 Sistema de Control de Intervenciones
